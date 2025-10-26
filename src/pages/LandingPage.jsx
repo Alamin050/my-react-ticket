@@ -7,7 +7,7 @@ const LandingPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen max-w-[1440px] mx-auto">
-      <main className="flex-grow">
+      <main className="flex-grow w-100%">
         {/* HERO SECTION */}
         <section className="relative text-center py-20 overflow-hidden bg-gradient-to-br from-blue-700 via-sky-600 to-teal-500 min-h-screen flex items-center justify-center">
           {/* Decorative Soft Blobs */}

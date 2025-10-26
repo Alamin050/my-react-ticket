@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="mx-auto w-full flex flex-col min-h-screen">
+      <div className="mx-auto w-full flex flex-col min-h-screen items-center">
         <Navbar />
         <main className={`flex-grow w-[100vw] max-w-[1440px] overflow-x-hidden ${isLandingPage ? 'pt-0' : 'pt-16'}`}>
           <Outlet context={{ tickets, handleSubmit, handleEdit, handleDelete, handleToggleStatus, showConfirmation }} />

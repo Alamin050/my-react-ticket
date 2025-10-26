@@ -14,7 +14,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-[#155DFC] p-4 fixed w-[100vw] top-0 z-30 shadow-lg">
+    <nav className="bg-[#155DFC] p-4 fixed w-[100vw] max-w-[1440px] top-0 z-30 shadow-lg">
       <div className="container mx-auto flex items-center justify-between flex-wrap">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <Link to="/" className="font-semibold text-xl tracking-tight">TicketApp</Link>
